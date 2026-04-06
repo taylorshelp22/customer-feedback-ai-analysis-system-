@@ -4,6 +4,8 @@
 
 This project is an automated workflow that collects customer feedback, analyzes it using AI, and converts it into structured, actionable insights.
 
+This project simulates a real-world customer success workflow where feedback is continuously monitored, analyzed, and acted upon using AI-driven automation.
+
 The system helps businesses quickly understand customer sentiment, identify issues, and respond to negative feedback in real time.
 
 ---
