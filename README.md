@@ -68,4 +68,13 @@ This diagram outlines the end-to-end system design before implementation.
 ### Workflow Design (Miro)
 ![Miro Diagram](miro-workflow-diagram.png)
 
+### Google Form (Input Collection)
+![Google Form](google-form.png)
+
+### Google Sheets (Structured Output)
+![Google Sheets](google-sheets-output.png)
+
+### Make Scenario (Automation Workflow)
+![Make Workflow](make-workflow.png)
+
 ---
