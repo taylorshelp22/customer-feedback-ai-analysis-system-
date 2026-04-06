@@ -66,6 +66,6 @@ This system automates the entire feedback loop:
 This diagram outlines the end-to-end system design before implementation.
 
 ### Workflow Design (Miro)
-![Miro Diagram](Miro Workflow Diagram.png)
+![Miro Diagram](./Miro Workflow Diagram.png)
 
 ---
