@@ -47,7 +47,7 @@ This system automates the entire feedback loop:
    - Summary (1–2 sentences)  
 5. JSON parser extracts values  
 6. Data is stored in Google Sheets  
-7. (Optional) Email alert is triggered for negative sentiment  
+7. Email alert is triggered for negative sentiment  
 
 
 ---
