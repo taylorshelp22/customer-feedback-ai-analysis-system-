@@ -47,6 +47,7 @@ This system automates the entire feedback loop:
 6. Data is stored in Google Sheets  
 7. (Optional) Email alert is triggered for negative sentiment  
 
+
 ---
 
 ## Example Output
@@ -56,14 +57,3 @@ This system automates the entire feedback loop:
   "sentiment": "Negative",
   "summary": "User experienced delays and was dissatisfied with customer support response time."
 }
-
----
-
-## System Visualization
-
-This diagram outlines the end-to-end system design before implementation.
-
-### Workflow Design (Miro)
-![Miro Diagram](Miro Workflow Diagram.png)
-
----
