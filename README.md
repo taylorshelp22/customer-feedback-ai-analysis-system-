@@ -57,3 +57,15 @@ This system automates the entire feedback loop:
   "sentiment": "Negative",
   "summary": "User experienced delays and was dissatisfied with customer support response time."
 }
+
+
+---
+
+## System Visualization
+
+This diagram outlines the end-to-end system design before implementation.
+
+### Workflow Design (Miro)
+![Miro Diagram](Miro Workflow Diagram.png)
+
+---
