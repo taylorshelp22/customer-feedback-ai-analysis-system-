@@ -10,7 +10,7 @@ The system helps businesses quickly understand customer sentiment, identify issu
 
 ---
 
-## Problem
+## Business Problem
 
 Customer feedback is often unstructured and difficult to analyze at scale. Manually reviewing responses is time-consuming and can lead to missed insights or delayed responses to negative experiences.
 
@@ -63,7 +63,7 @@ This system automates the entire feedback loop:
 
 ---
 
-## Outcome
+## Value Added
 
 - Reduces manual effort required to review customer feedback  
 - Automatically classifies sentiment for faster decision-making  
