@@ -28,7 +28,7 @@ This system automates the entire feedback loop:
 
 ---
 
-## Tools Used
+## Tech Stack
 
 - Google Forms (data collection)
 - Make (automation workflow)
