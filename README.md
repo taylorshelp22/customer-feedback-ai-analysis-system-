@@ -1,108 +1,180 @@
-# AI-Powered Customer Feedback Analysis System
+# CUSTOMER FEEDBACK AI ANALYSIS SYSTEM
+
+An AI-powered automation workflow that analyzes customer feedback submissions, detects sentiment, summarizes responses, and generates automated alerts for negative customer experiences.
+
+This project demonstrates how AI automation can transform unstructured customer feedback into organized business insights that improve response visibility, operational awareness, and customer experience management.
+
+---
 
 ## Overview
 
-This project is an automated workflow that collects customer feedback, analyzes it using AI, and converts it into structured, actionable insights.
+Businesses that collect customer feedback often struggle to manually review submissions, identify negative experiences quickly, and organize customer insights efficiently. As submission volume increases, manual review becomes time-consuming and inconsistent.
 
-This project simulates a real-world customer success workflow where feedback is continuously monitored, analyzed, and acted upon using AI-driven automation.
+This automation system streamlines the feedback analysis process by capturing customer submissions, analyzing sentiment with Gemini AI, parsing structured response data, updating operational records, and sending automated alerts when negative feedback is detected.
 
-The system helps businesses quickly understand customer sentiment, identify issues, and respond to negative feedback in real time.
+The workflow reduces manual review effort while improving visibility into customer sentiment and operational response speed.
 
 ---
 
 ## Business Problem
 
-Customer feedback is often unstructured and difficult to analyze at scale. Manually reviewing responses is time-consuming and can lead to missed insights or delayed responses to negative experiences.
+Businesses that rely on customer feedback often face operational challenges when trying to monitor customer satisfaction manually.
+
+This creates several issues:
+
+- Slow identification of negative customer experiences
+- Manual review of feedback submissions
+- Inconsistent sentiment analysis
+- Difficulty organizing customer insights
+- Delayed escalation of customer concerns
+- Time-consuming feedback management processes
+
+A scalable automated solution was needed to analyze customer feedback, structure operational insights, and trigger alerts automatically.
 
 ---
 
 ## Solution
 
-This system automates the entire feedback loop:
+Built an automated workflow that:
 
-1. Collect feedback via Google Forms  
-2. Send responses to Gemini AI for sentiment analysis and summarization  
-3. Parse structured output (JSON format)  
-4. Store results in Google Sheets  
-5. Trigger alerts for negative feedback  
-
----
-
-## Tech Stack
-
-- Google Forms (data collection)
-- Make (automation workflow)
-- Gemini AI (sentiment analysis + summarization)
-- Google Sheets (data storage)
+- Captures customer feedback submissions through Google Forms
+- Sends feedback responses to Gemini AI for sentiment analysis
+- Generates AI-powered customer feedback summaries
+- Parses structured JSON response data
+- Searches and updates matching Google Sheets records
+- Detects negative customer sentiment automatically
+- Sends manager alert emails for negative feedback submissions
+- Reduces manual feedback review effort
 
 ---
 
 ## Workflow Breakdown
 
-1. User submits feedback via Google Form  
-2. Make detects new submission (trigger)  
-3. Feedback is sent to Gemini AI  
-4. AI returns structured output:
-   - Sentiment (Positive / Neutral / Negative)
-   - Summary (1–2 sentences)  
-5. JSON parser extracts values  
-6. Data is stored in Google Sheets  
-7. Email alert is triggered for negative sentiment  
+1. Customers submit feedback through a Google Form
 
+2. Make detects new customer feedback submissions automatically
 
----
+3. Gemini AI analyzes the customer response for sentiment and summary generation
 
-## Example Output
+4. JSON parsing extracts structured AI response data
 
-```json
-{
-  "sentiment": "Negative",
-  "summary": "User experienced delays and was dissatisfied with customer support response time."
-}
-```
+5. Google Sheets searches for the matching customer feedback row
+
+6. Google Sheets updates the row with sentiment and AI-generated summary fields
+
+7. A sentiment filter checks whether the feedback is negative
+
+8. Gmail sends an automated manager alert email for negative customer feedback
 
 ---
 
 ## Value Added
 
-- Reduces manual effort required to review customer feedback  
-- Automatically classifies sentiment for faster decision-making  
-- Transforms unstructured feedback into structured, usable data  
-- Enables quicker response to negative customer experiences  
-- Creates a scalable system for ongoing feedback analysis  
+- Automates customer feedback analysis workflows
+- Improves visibility into customer sentiment trends
+- Reduces manual feedback review processes
+- Accelerates escalation of negative customer experiences
+- Organizes customer insights into structured operational records
+- Demonstrates practical AI-powered workflow automation
+
+---
+
+## Tech Stack
+
+- Make (Integromat)
+- Google Forms
+- Google Sheets
+- Gemini AI
+- Gmail
+- JSON Parsing
+- Prompt Engineering
+- Workflow Automation
+- Sentiment Analysis Automation
+- No-Code Automation
+
+---
+
+## Workflow Screenshots
+
+### Workflow Architecture Diagram
+
+![Workflow Architecture Diagram](images/01-feedback-workflow-diagram.png)
+
+---
+
+### Make Workflow Overview
+
+![Make Workflow Overview](images/02-make-workflow-overview.png)
+
+---
+
+### Customer Feedback Submission Form
+
+![Customer Feedback Submission Form](images/03-feedback-submission-form.png)
+
+---
+
+### Gemini AI Analysis Module
+
+![Gemini AI Analysis Module](images/04-gemini-analysis-module.png)
+
+---
+
+### Gemini Structured JSON Response
+
+![Gemini Structured JSON Response](images/05-gemini-json-response.png)
+
+---
+
+### JSON Parsing Module
+
+![JSON Parsing Module](images/06-json-parsing-module.png)
+
+---
+
+### Feedback Record Lookup Module
+
+![Feedback Record Lookup Module](images/07-feedback-record-lookup-module.png)
+
+---
+
+### Feedback Update Module
+
+![Feedback Update Module](images/08-feedback-update-module.png)
+
+---
+
+### Feedback Analysis Results Sheet
+
+![Feedback Analysis Results Sheet](images/09-feedback-analysis-results-sheet.png)
+
+---
+
+### Negative Sentiment Alert Module
+
+![Negative Sentiment Alert Module](images/10-negative-feedback-alert-module.png)
+
+---
+
+### Manager Alert Email Output
+
+![Manager Alert Email Output](images/11-manager-alert-email-output.png)
 
 ---
 
 ## Future Improvements
 
-- Add dashboard for visualization (e.g., Looker Studio)  
-- Implement priority scoring for urgent issues  
-- Integrate with CRM systems  
-- Expand classification beyond sentiment (e.g., categories, urgency)  
-- Track trends over time for better decision-making  
+Potential future enhancements include:
+
+- Slack or Microsoft Teams alert integrations
+- AI-powered customer response recommendations
+- Customer satisfaction trend dashboards
+- CRM integration
+- Multi-language sentiment analysis
+- Escalation priority scoring
 
 ---
 
 ## Project Status
 
-Completed as a functional automation system with real-world application for analyzing and acting on customer feedback.
-
----
-
-## System Visualization
-
-This diagram outlines the end-to-end system design before implementation.
-
-### Workflow Design (Miro)
-![Miro Diagram](miro-workflow-diagram.png)
-
-### Google Form (Input Collection)
-![Google Form](google-form.png)
-
-### Google Sheets (Structured Output)
-![Google Sheets](google-sheets-output.png)
-
-### Make Scenario (Automation Workflow)
-![Make Workflow](make-workflow.png)
-
----
+Completed as a functional AI-powered automation workflow for customer feedback analysis, sentiment detection, structured insight generation, and automated negative feedback alerting.
