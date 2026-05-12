@@ -144,15 +144,15 @@ Built an automated workflow that:
 
 ---
 
-### Feedback Analysis Results Sheet
+### Negative Sentiment Filter
 
-![Feedback Analysis Results Sheet](images/09-feedback-analysis-results-sheet.png)
+![Negative Sentiment Filter](images/09-negative-sentiment-filter.png)
 
 ---
 
-### Negative Sentiment Alert Module
+### Gmail Negative Feedback Alert
 
-![Negative Sentiment Alert Module](images/10-negative-feedback-alert-module.png)
+![Gmail Negative Feedback Alert](images/10-gmail-negative-feedback-alert.png)
 
 ---
 
